@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{height:110vh;width:110vw; background-repeat:no-repeat;
+    background-position:center;background-size:cover;}
+    .list{list-style:none; text-decoration:none;display:inline-block; padding-left:8px;}
+    body background{position:fixed;}
+    .navbar{
+            background-color: black;
+            border-radius: 30px;
+            width:1350px; height:50px;
+            flex-direction:fixed;
+            position:fixed;
+        
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 40px 40px 40px 40px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color:rgba(187, 183, 179, 0.829);transition:color 0.5s;}
+    
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 50px;
+        }
+        .navbar input{
+            border: 2px solid rgb(78, 0, 0);
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 140px;
+        }
+        h1{color:rgb(225, 223, 236);text-align:center;font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight:700;
+           margin:"100px 100px 100px 100px" ; font-size:50px;}
+    </style>
+</head>
+<body background="background.jpg">
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <Li><a href="collection.html"> Galllery</a></Li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="contact.html">Our Team</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </ul>
+        </nav>
+        <marquee direction="up" scrollamount="5"><img src="marquee.png"></marquee>
+
+    </header>
+        <div id="logo-img">
+        </div>
+      
+ 
+</body>
+</html>
